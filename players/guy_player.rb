@@ -23,7 +23,7 @@ class GuyPlayer
         end
       end
       if counter == 3
-        return column_no if is_legal_move? column_no
+        return column_no if is_legal_move? state, column_no
       end
     end
 
